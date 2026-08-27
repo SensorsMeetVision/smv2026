@@ -88,10 +88,12 @@ push から反映まで 1〜2 分。反映されない時はブラウザのキ�
 
 | やりたいこと | 編集箇所 |
 |---|---|
-| 講演者を追加・変更 | `index.html` の `<article class="speaker">` ブロックをコピーして編集。`speaker__avatar` はイニシャル2文字 |
+| **講演者リストを公開する** | `../012_website_draft_speakers_program.html` の [1] を、`#speakers` の `<div class="tbd">` と差し替え |
+| **プログラムを公開する** | 同ファイルの [2] を、`#program` の `<div class="tbd">` と差し替え。見出しも `Program` → `Tentative program` 等に調整 |
+| 講演者を追加・変更 | `<article class="speaker">` ブロックをコピーして編集。`speaker__avatar` はイニシャル2文字 |
 | 講演タイトル・アブストを追加 | 各 speaker ブロックの `speaker__topic` の下に `<p>` を追加 |
 | 顔写真を入れる | `assets/img/` に画像を置き、`<div class="speaker__avatar">` を `<img class="speaker__avatar" src="assets/img/xxx.jpg" alt="">` に置換 |
-| プログラム確定 | `#program` の `<table>` の行を編集。「Tentative program」の見出しと注記文も忘れず変更 |
+| プログラムの時間を変更 | `#program` の `<table>` の行を編集 |
 | CFP の投稿方法を公開 | `#cfp` 内の `note--todo` ブロックを実際の投稿手順に差し替え（下記 TODO 参照） |
 | 色を変える | `assets/style.css` 冒頭の `:root` 変数のみ |
 
