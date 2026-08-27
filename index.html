@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SMV 2026 — Unconventional Image Sensors Meet Computer Vision | ACCV 2026 Workshop &amp; IWISS 2026</title>
+<meta name="description" content="ACCV 2026 Workshop W09, in conjunction with IWISS 2026. A full-day workshop on the co-design of unconventional image sensors and computer vision. 14 December 2026, Grand Cube Osaka, Japan.">
+<link rel="canonical" href="https://sensorsmeetvision.github.io/smv2026/">
+<meta property="og:url" content="https://sensorsmeetvision.github.io/smv2026/">
+<meta property="og:title" content="Unconventional Image Sensors Meet Computer Vision — ACCV 2026 Workshop &amp; IWISS 2026">
+<meta property="og:description" content="A full-day workshop bringing the image-sensor and computer-vision communities into the same room. 14 December 2026, Osaka, Japan.">
+<meta property="og:type" content="website">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<!-- =====================================================  TOP BAR  ==== -->
+<header class="topbar">
+  <div class="wrap">
+    <a class="topbar__brand" href="#top">SMV&nbsp;2026</a>
+    <nav aria-label="Section navigation">
+      <a href="#about">Overview</a>
+      <a href="#topics">Topics</a>
+      <a href="#speakers">Speakers</a>
+      <a href="#program">Program</a>
+      <a href="#cfp">Call for Posters</a>
+      <a href="#organizers">Organizers</a>
+      <a href="#venue">Venue</a>
+    </nav>
+  </div>
+</header>
+
+<!-- ========================================================  HERO  ==== -->
+<section class="hero" id="top">
+  <div class="wrap">
+    <div class="hero__badges">
+      <span class="badge badge--solid">ACCV 2026 · Workshop W09</span>
+      <span class="badge">IWISS 2026</span>
+      <span class="badge">Full day · In person</span>
+    </div>
+
+    <span class="hero__acronym">SMV — Sensors Meet Vision</span>
+    <h1>Unconventional Image Sensors<br>Meet Computer Vision</h1>
+
+    <p class="hero__conjunction">
+      A workshop at <strong>ACCV 2026</strong>, the 18th Asian Conference on Computer Vision,
+      held in conjunction with the <strong>International Workshop on Image Sensors and
+      Imaging Systems (IWISS) 2026</strong> — bringing the Asia-Pacific image-sensor
+      community and the computer-vision community into the same room.
+    </p>
+
+    <div class="hero__facts">
+      <div class="fact">
+        <span class="fact__label">Date</span>
+        <span class="fact__value">14 December 2026</span>
+      </div>
+      <div class="fact">
+        <span class="fact__label">Room</span>
+        <span class="fact__value">Room 1007</span>
+      </div>
+      <div class="fact">
+        <span class="fact__label">Venue</span>
+        <span class="fact__value">Grand Cube Osaka</span>
+      </div>
+      <div class="fact">
+        <span class="fact__label">Format</span>
+        <span class="fact__value">Invited talks + posters</span>
+      </div>
+    </div>
+
+    <div class="hero__actions">
+      <a class="btn btn--primary" href="#cfp">Call for Posters</a>
+      <a class="btn btn--ghost" href="#speakers">Invited Speakers</a>
+      <a class="btn btn--ghost" href="https://accv2026.org/" target="_blank" rel="noopener">ACCV 2026 &#8599;</a>
+    </div>
+  </div>
+</section>
+
+<!-- =======================================================  ABOUT  ==== -->
+<section class="section" id="about">
+  <div class="wrap">
+    <p class="section__eyebrow">Overview</p>
+    <h2>New sensors make new vision possible — and new vision demands new sensors</h2>
+
+    <div class="prose">
+      <p class="lead">
+        Most computer-vision venues treat the image sensor as a fixed, conventional RGB
+        camera. But a new generation of image sensors is rapidly reshaping what can be
+        measured and, in turn, what vision algorithms can achieve.
+      </p>
+      <p>
+        This workshop focuses on the <strong>co-design of unconventional image sensors</strong>
+        and the computer-vision and computational-imaging methods they enable. Its central
+        premise is bidirectional: novel sensors give rise to novel CV/CI methods, and the
+        demands of CV/CI in turn drive new sensor designs. Unusually for a computer-vision
+        venue, sensor-hardware researchers are part of the organizing team, so the program
+        reaches down to the device level rather than treating sensing as a fixed front end.
+      </p>
+      <p>
+        The workshop is the first of its kind at ACCV, and is held in conjunction with
+        <strong>IWISS 2026</strong>, the biennial International Workshop on Image Sensors and
+        Imaging Systems. Co-locating the two events connects an established sensor-side
+        international community — much of the world's image-sensor industry sits in the
+        Asia-Pacific region — with the computer-vision community.
+      </p>
+    </div>
+
+    <div class="pillars">
+      <div class="pillar">
+        <span class="pillar__num">01</span>
+        <h3>Breadth of modalities</h3>
+        <p>Not a single sensor type: SPAD/single-photon, event/neuromorphic, time-of-flight
+           and LiDAR, multispectral/SWIR/thermal, and in-sensor computing devices.</p>
+      </div>
+      <div class="pillar">
+        <span class="pillar__num">02</span>
+        <h3>Depth to the device level</h3>
+        <p>Image-sensor researchers organize and speak, so the program covers sensor design
+           and fabrication — not only the algorithms that consume sensor data.</p>
+      </div>
+      <div class="pillar">
+        <span class="pillar__num">03</span>
+        <h3>Bidirectional co-design</h3>
+        <p>Both directions are on the table: new sensors enabling new CV/CI, and CV/CI
+           requirements driving the next generation of sensors.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ======================================================  TOPICS  ==== -->
+<section class="section section--alt" id="topics">
+  <div class="wrap">
+    <p class="section__eyebrow">Scope</p>
+    <h2>Topics of interest</h2>
+    <p class="prose">
+      We welcome contributions across the full path from photons to inference, including
+      but not limited to:
+    </p>
+    <ul class="topics">
+      <li>Single-photon (SPAD) imaging, event / neuromorphic sensing, and their fusion</li>
+      <li>Time-of-flight, LiDAR, transient imaging, and non-line-of-sight imaging</li>
+      <li>In-sensor and near-sensor computing, and deep-learning-enabled image sensors</li>
+      <li>Multispectral, SWIR, and thermal (LWIR) sensing for computer vision</li>
+      <li>Computational photography and imaging with jointly designed optics and algorithms</li>
+      <li>Hardware-aware learning and end-to-end optimization of sensing and inference</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ====================================================  SPEAKERS  ==== -->
+<section class="section" id="speakers">
+  <div class="wrap">
+    <p class="section__eyebrow">Program</p>
+    <h2>Invited speakers</h2>
+    <p class="prose">
+      The program is built as a balanced dialogue between the two communities, with
+      roughly half the talks from the image-sensor side and half from computer vision and
+      computational imaging. Each invited talk is 25 minutes including Q&amp;A.
+      Talk titles and abstracts will be posted here as they are confirmed.
+    </p>
+
+    <!-- ---------------------------------------- computer vision side -- -->
+    <div class="speaker-group">
+      <h3 class="speaker-group__title">Computer vision &amp; computational imaging</h3>
+      <div class="speakers">
+
+        <article class="speaker">
+          <div class="speaker__avatar" aria-hidden="true">BS</div>
+          <div>
+            <p class="speaker__name">Boxin Shi</p>
+            <p class="speaker__affil">Peking University, China</p>
+            <p class="speaker__topic">Event-based vision</p>
+          </div>
+        </article>
+
+        <article class="speaker">
+          <div class="speaker__avatar" aria-hidden="true">SL</div>
+          <div>
+            <p class="speaker__name">Seung Ah Lee</p>
+            <p class="speaker__affil">Seoul National University, Korea</p>
+            <p class="speaker__topic">Lensless imaging and computational optics</p>
+          </div>
+        </article>
+
+        <article class="speaker">
+          <div class="speaker__avatar" aria-hidden="true">KT</div>
+          <div>
+            <p class="speaker__name">Kenichiro Tanaka</p>
+            <p class="speaker__affil">Ritsumeikan University, Japan</p>
+            <p class="speaker__topic">Transient, time-of-flight and thermal imaging</p>
+          </div>
+        </article>
+
+        <article class="speaker">
+          <div class="speaker__avatar" aria-hidden="true">KM</div>
+          <div>
+            <p class="speaker__name">Kaushik Mitra</p>
+            <p class="speaker__affil">IIT Madras, India</p>
+            <p class="speaker__topic">Lensless, single-photon (SPAD) and event imaging</p>
+          </div>
+        </article>
+
+        <article class="speaker speaker--tba">
+          <div class="speaker__avatar" aria-hidden="true">?</div>
+          <div>
+            <p class="speaker__name">To be announced</p>
+            <p class="speaker__affil">&mdash;</p>
+            <p class="speaker__topic">Spectral and polarimetric imaging</p>
+          </div>
+        </article>
+
+      </div>
+    </div>
+
+    <!-- ------------------------------------------- image sensor side -- -->
+    <div class="speaker-group">
+      <h3 class="speaker-group__title">Image sensors &amp; devices</h3>
+      <div class="speakers">
+
+        <article class="speaker">
+          <div class="speaker__avatar" aria-hidden="true">YC</div>
+          <div>
+            <p class="speaker__name">Youngcheol Chae</p>
+            <p class="speaker__affil">Yonsei University, Korea</p>
+            <p class="speaker__topic">SPAD-based indirect time-of-flight</p>
+          </div>
+        </article>
+
+        <article class="speaker">
+          <div class="speaker__avatar" aria-hidden="true">CH</div>
+          <div>
+            <p class="speaker__name">Chih-Cheng Hsieh</p>
+            <p class="speaker__affil">National Tsing Hua University, Taiwan</p>
+            <p class="speaker__topic">Low-power, on-chip DNN image sensors</p>
+          </div>
+        </article>
+
+        <article class="speaker">
+          <div class="speaker__avatar" aria-hidden="true">SK</div>
+          <div>
+            <p class="speaker__name">Seong-Jin Kim</p>
+            <p class="speaker__affil">Sogang University, Korea</p>
+            <p class="speaker__topic">Event-driven SPAD sensors</p>
+          </div>
+        </article>
+
+        <article class="speaker">
+          <div class="speaker__avatar" aria-hidden="true">LL</div>
+          <div>
+            <p class="speaker__name">Liyuan Liu</p>
+            <p class="speaker__affil">Chinese Academy of Sciences, China</p>
+            <p class="speaker__topic">SPAD-based spiking neural networks</p>
+          </div>
+        </article>
+
+        <article class="speaker">
+          <div class="speaker__avatar" aria-hidden="true">SO</div>
+          <div>
+            <p class="speaker__name">Shunsuke Okura</p>
+            <p class="speaker__affil">Ritsumeikan University, Japan</p>
+            <p class="speaker__topic">Security and privacy in image sensors</p>
+          </div>
+        </article>
+
+        <article class="speaker speaker--tba">
+          <div class="speaker__avatar" aria-hidden="true">?</div>
+          <div>
+            <p class="speaker__name">To be announced</p>
+            <p class="speaker__affil">&mdash;</p>
+            <p class="speaker__topic">Pixel-parallel ADC</p>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =====================================================  PROGRAM  ==== -->
+<section class="section section--alt" id="program">
+  <div class="wrap">
+    <p class="section__eyebrow">14 December 2026 · Room 1007</p>
+    <h2>Tentative program</h2>
+    <p class="prose">
+      A full-day, in-person program. The schedule below is tentative and will be finalized
+      in November 2026.
+    </p>
+
+    <div class="table-scroll">
+      <table>
+        <thead>
+          <tr><th scope="col">Time</th><th scope="col">Program item</th></tr>
+        </thead>
+        <tbody>
+          <tr><td class="time">09:00 – 09:10</td><td>Opening remarks</td></tr>
+          <tr class="is-highlight"><td class="time">09:10 – 10:25</td><td>Session 1 — Image sensor side (3 invited talks)</td></tr>
+          <tr class="is-break"><td class="time">10:25 – 10:50</td><td>Coffee break and poster preview</td></tr>
+          <tr class="is-highlight"><td class="time">10:50 – 12:05</td><td>Session 2 — Computer vision side (3 invited talks)</td></tr>
+          <tr class="is-break"><td class="time">12:05 – 13:30</td><td>Lunch</td></tr>
+          <tr class="is-highlight"><td class="time">13:30 – 15:10</td><td>Session 3 — Mixed sensor and CV / CI (4 invited talks)</td></tr>
+          <tr class="is-break"><td class="time">15:10 – 15:35</td><td>Coffee break</td></tr>
+          <tr class="is-highlight"><td class="time">15:35 – 16:35</td><td>Poster session</td></tr>
+          <tr class="is-highlight"><td class="time">16:35 – 17:10</td><td>Panel discussion — bridging sensors and vision</td></tr>
+          <tr><td class="time">17:10 – 17:20</td><td>Closing remarks</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================================  CFP  ==== -->
+<section class="section" id="cfp">
+  <div class="wrap">
+    <p class="section__eyebrow">Participation</p>
+    <h2>Call for posters</h2>
+
+    <div class="prose">
+      <p class="lead">
+        We invite one-page abstracts for a non-archival poster session. The session is
+        designed to be easy to join: there is no full-paper review, and previously
+        published work is welcome.
+      </p>
+      <p>
+        The poster session is the main opportunity for students and early-career
+        researchers to present at the workshop, and we particularly encourage submissions
+        from groups working on new sensing modalities, sensor–algorithm co-design, and
+        applications of unconventional cameras.
+      </p>
+
+      <h3>Submission format</h3>
+      <ul>
+        <li><strong>One-page abstract (A4)</strong> — no full paper required.</li>
+        <li><strong>No peer review</strong> — light screening for scope only.</li>
+        <li><strong>Previously published work is welcome.</strong></li>
+        <li><strong>Non-archival</strong> — there are no proceedings, so submitting here
+            does not preclude publication elsewhere.</li>
+      </ul>
+
+      <h3>Important dates</h3>
+    </div>
+
+    <div class="table-scroll">
+      <table class="dates">
+        <tbody>
+          <tr><td>Poster abstract deadline</td><td class="date">25 October 2026</td></tr>
+          <tr><td>Notification to authors</td><td class="date">15 November 2026</td></tr>
+          <tr><td>Final program announced</td><td class="date">15 November 2026</td></tr>
+          <tr><td>Workshop</td><td class="date">14 December 2026</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- ==================================================================
+         TODO (remove this block before publishing):
+         Submission method is not decided yet — email vs. Google Form vs. CMT.
+         Once decided, replace the note below with the actual instructions.
+         ================================================================== -->
+    <div class="note note--todo">
+      <p><strong>Submission instructions — coming soon.</strong>
+      The submission page will open here in due course. In the meantime, questions about
+      scope and eligibility are very welcome by email:
+      <a href="mailto:takatani@iit.tsukuba.ac.jp">takatani@iit.tsukuba.ac.jp</a>.</p>
+    </div>
+
+    <div class="note">
+      <p><strong>Attending ACCV 2026?</strong> Authors of accepted ACCV 2026 papers on
+      computational imaging, unconventional sensors, and related topics are warmly invited
+      to present a poster here as well.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ==================================================  ORGANIZERS  ==== -->
+<section class="section section--alt" id="organizers">
+  <div class="wrap">
+    <p class="section__eyebrow">People</p>
+    <h2>Organizers</h2>
+
+    <div class="organizers">
+      <div class="organizer">
+        <h3 class="organizer__name">Keiichiro Kagawa</h3>
+        <p class="organizer__affil">Professor, Research Institute of Electronics,
+           Shizuoka University, Japan</p>
+        <p>
+          Works on CMOS image sensor development for focal-plane time-compressive
+          time-of-flight ranging based on multi-tap pixels, and on applications of new CMOS
+          image sensors such as FLIM, DOT, and compressive video. He organizes the biennial
+          International Workshop on Image Sensors and Imaging Systems (IWISS).
+        </p>
+        <a href="mailto:kagawa@idl.rie.shizuoka.ac.jp">kagawa@idl.rie.shizuoka.ac.jp</a>
+      </div>
+
+      <div class="organizer">
+        <h3 class="organizer__name">Tsuyoshi Takatani</h3>
+        <p class="organizer__affil">Assistant Professor, Institute of Systems and
+           Information Engineering, University of Tsukuba, Japan</p>
+        <p>
+          Works on computational imaging, computational photography, event-based vision,
+          and computer graphics, bridging physics-based imaging and learning-based vision.
+          His work has appeared at major computer-vision venues.
+        </p>
+        <a href="mailto:takatani@iit.tsukuba.ac.jp">takatani@iit.tsukuba.ac.jp</a>
+      </div>
+    </div>
+
+    <h3>Program committee</h3>
+    <p class="prose">
+      The organizers serve as the program committee, with the invited speakers acting as an
+      extended program and advisory committee and assisting with scope screening for the
+      poster session.
+    </p>
+
+    <h3>Supported by</h3>
+    <ul class="support">
+      <li>International Image Sensor Society (IISS)</li>
+      <li>Institute of Image Information and Television Engineers (ITE)</li>
+      <li>Optical Society of Japan — Information Photonics Group</li>
+      <li>Optical Society of Japan — CMOS Working Group</li>
+    </ul>
+  </div>
+</section>
+
+<!-- =======================================================  VENUE  ==== -->
+<section class="section" id="venue">
+  <div class="wrap">
+    <p class="section__eyebrow">Logistics</p>
+    <h2>Date and venue</h2>
+
+    <div class="venue-grid">
+      <div class="prose">
+        <p>
+          The workshop takes place on <strong>Monday, 14 December 2026</strong> at the
+          <strong>Osaka International Convention Center (Grand Cube Osaka)</strong>, the
+          venue of ACCV 2026. The centre is in Nakanoshima, Kita-ku, Osaka — a riverside
+          district known for its art museums — about 10 minutes by taxi from Umeda, with a
+          free shuttle bus from JR Osaka Station and a direct connection to Nakanoshima
+          Station (exit 2) on the Keihan Nakanoshima line.
+        </p>
+        <p>
+          Attendance requires ACCV 2026 registration. Registration, travel, and
+          accommodation are handled by the main conference; please see the
+          <a href="https://accv2026.org/" target="_blank" rel="noopener">ACCV 2026 website</a>
+          for details.
+        </p>
+        <p>
+          ACCV 2026 runs from 14 to 18 December 2026, with workshops and tutorials on
+          14–15 December and the main conference on 16–18 December.
+        </p>
+      </div>
+
+      <div class="venue-card">
+        <dl>
+          <dt>Workshop code</dt>
+          <dd>W09</dd>
+          <dt>Date</dt>
+          <dd>Monday, 14 December 2026 (full day)</dd>
+          <dt>Room</dt>
+          <dd>Room 1007 (10F)</dd>
+          <dt>Venue</dt>
+          <dd>Grand Cube Osaka<br>
+              <span style="font-weight:400">Osaka International Convention Center</span></dd>
+          <dt>Address</dt>
+          <dd style="font-weight:400">5-3-51 Nakanoshima, Kita-ku, Osaka 530-0005, Japan</dd>
+          <dt>Links</dt>
+          <dd style="font-weight:400">
+            <a href="https://accv2026.org/workshops/" target="_blank" rel="noopener">ACCV 2026 workshops</a> ·
+            <a href="https://www.gco.co.jp/" target="_blank" rel="noopener">Grand Cube Osaka</a>
+          </dd>
+        </dl>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ======================================================  FOOTER  ==== -->
+<footer class="footer">
+  <div class="wrap">
+    <p class="footer__title">Unconventional Image Sensors Meet Computer Vision (SMV 2026)</p>
+    <p>
+      ACCV 2026 Workshop W09, in conjunction with IWISS 2026 &middot;
+      14 December 2026 &middot; Grand Cube Osaka, Japan
+    </p>
+    <p>
+      Contact:
+      <a href="mailto:takatani@iit.tsukuba.ac.jp">takatani@iit.tsukuba.ac.jp</a> &middot;
+      <a href="mailto:kagawa@idl.rie.shizuoka.ac.jp">kagawa@idl.rie.shizuoka.ac.jp</a>
+    </p>
+    <p class="footer__meta">
+      Part of the <a href="https://accv2026.org/" target="_blank" rel="noopener">18th Asian
+      Conference on Computer Vision</a>. Past IWISS editions are archived by the
+      <a href="https://imagesensors.org/past-workshops-library/" target="_blank" rel="noopener">International
+      Image Sensor Society</a>.
+    </p>
+  </div>
+</footer>
+
+</body>
+</html>
