@@ -140,6 +140,10 @@ li { margin-bottom: .35em; }
 }
 .btn--ghost:hover { background: rgba(255, 255, 255, .12); }
 
+/* Solid button for light sections (e.g. the CFP submission link) */
+.btn--solid { background: var(--brand); color: #fff; }
+.btn--solid:hover { background: var(--brand-deep); }
+
 /* ----------------------------------------------------------- sections -- */
 .section { padding: 62px 0; border-top: 1px solid var(--line-soft); }
 .section--alt { background: var(--bg-alt); }
