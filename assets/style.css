@@ -340,8 +340,7 @@ tr.is-session td {
 .tentative { font-weight: 400; font-size: .85em; color: var(--ink-mute); white-space: nowrap; }
 .tba { font-weight: 400; font-style: italic; color: var(--ink-mute); }
 tr.is-poster td {
-  background: #f4efe4; color: var(--brand-deep);
+  background: #e4f1e9; color: #16503a;
   font-weight: 700; letter-spacing: .04em;
-  border-top: 2px solid var(--line); border-bottom: 2px solid var(--line);
 }
-tr.is-poster td.time { color: var(--brand-deep); }
+tr.is-poster td.time { color: #16503a; }
