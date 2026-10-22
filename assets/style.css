@@ -329,3 +329,13 @@ tr.is-highlight td { font-weight: 600; }
   .hero { background: none; color: #000; padding: 0 0 20px; }
   .hero h1, .fact__value, .hero__conjunction { color: #000; }
 }
+
+/* -------------------------------------------------- program timetable -- */
+tr.is-session td {
+  background: var(--accent-soft); color: var(--brand-deep);
+  font-weight: 700; letter-spacing: .04em;
+}
+.talk__title { font-weight: 600; }
+.talk__speaker { display: block; font-size: .88rem; color: var(--ink-mute); margin-top: 2px; }
+.tentative { font-weight: 400; font-size: .85em; color: var(--ink-mute); white-space: nowrap; }
+.tba { font-weight: 400; font-style: italic; color: var(--ink-mute); }
