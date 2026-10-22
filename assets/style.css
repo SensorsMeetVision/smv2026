@@ -336,7 +336,7 @@ tr.is-session td {
   font-weight: 700; letter-spacing: .04em;
 }
 .talk__title { font-weight: 600; }
-.talk__speaker { display: block; font-size: .88rem; color: var(--ink-mute); margin-top: 2px; }
+.talk__speaker { display: block; font-size: .9rem; color: var(--ink-soft); margin-top: 2px; }
 .tentative { font-weight: 400; font-size: .85em; color: var(--ink-mute); white-space: nowrap; }
 .tba { font-weight: 400; font-style: italic; color: var(--ink-mute); }
 tr.is-poster td {
