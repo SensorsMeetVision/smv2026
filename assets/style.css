@@ -242,6 +242,7 @@ li { margin-bottom: .35em; }
   border-bottom: 2px solid currentColor; transform: rotate(-45deg); transition: transform .15s;
 }
 .speaker__bio[open] summary::before { transform: rotate(45deg); }
+.speaker__bio + .speaker__bio { margin-top: 6px; }
 .speaker__bio p {
   margin: 10px 0 0 calc(var(--photo) + var(--photo-gap)); line-height: 1.65;
   padding-top: 10px; border-top: 1px solid var(--line-soft);
