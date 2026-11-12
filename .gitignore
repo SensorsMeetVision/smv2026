@@ -3,3 +3,7 @@ Thumbs.db
 desktop.ini
 *~
 *.swp
+
+# raw photo downloads (converted copies are assets/speakers/*.jpg)
+assets/speakers/*.raw
+assets/speakers/smv_*
