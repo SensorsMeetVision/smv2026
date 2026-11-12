@@ -376,3 +376,8 @@ tr.is-poster td {
   font-weight: 700; letter-spacing: .04em;
 }
 tr.is-poster td.time { color: #16503a; }
+
+/* ------------------------------------------------- heading line breaks -- */
+h1, h2, h3 { text-wrap: balance; }
+.h2-statement { max-width: none; }
+.nw { white-space: nowrap; }
