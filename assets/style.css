@@ -208,7 +208,9 @@ li { margin-bottom: .35em; }
   background: #fff; border: 1px solid var(--line);
   border-radius: var(--radius); padding: 16px;
 }
-.speaker__head { display: flex; gap: 14px; align-items: flex-start; }
+.speaker { --photo: 108px; --photo-gap: 16px; }
+@media (max-width: 639px) { .speaker { --photo: 88px; --photo-gap: 14px; } }
+.speaker__head { display: flex; gap: var(--photo-gap); align-items: flex-start; }
 .speaker__info { min-width: 0; }
 .speaker__avatar {
   flex: 0 0 52px; width: 52px; height: 52px; border-radius: 50%;
@@ -218,11 +220,11 @@ li { margin-bottom: .35em; }
   letter-spacing: .02em;
 }
 .speaker__photo {
-  flex: 0 0 72px; width: 72px; height: 72px; border-radius: 12px;
+  flex: 0 0 var(--photo); width: var(--photo); height: var(--photo); border-radius: 16px;
   object-fit: cover; background: var(--line-soft);
   border: 1px solid var(--line);
 }
-.speaker .speaker__avatar { flex-basis: 72px; width: 72px; height: 72px; font-size: 1.05rem; border-radius: 12px; }
+.speaker .speaker__avatar { flex-basis: var(--photo); width: var(--photo); height: var(--photo); font-size: 1.3rem; border-radius: 16px; }
 .speaker__note {
   display: inline-block; margin: 8px 0 0; padding: 2px 8px;
   font-size: .76rem; font-weight: 600; letter-spacing: .02em;
@@ -232,7 +234,7 @@ li { margin-bottom: .35em; }
 .speaker__bio summary {
   cursor: pointer; font-weight: 600; font-size: .84rem; color: var(--accent);
   list-style: none; display: inline-flex; align-items: center; gap: 6px;
-  margin-left: 86px;
+  margin-left: calc(var(--photo) + var(--photo-gap));
 }
 .speaker__bio summary::-webkit-details-marker { display: none; }
 .speaker__bio summary::before {
@@ -241,7 +243,7 @@ li { margin-bottom: .35em; }
 }
 .speaker__bio[open] summary::before { transform: rotate(45deg); }
 .speaker__bio p {
-  margin: 10px 0 0 86px; line-height: 1.65;
+  margin: 10px 0 0 calc(var(--photo) + var(--photo-gap)); line-height: 1.65;
   padding-top: 10px; border-top: 1px solid var(--line-soft);
 }
 @media (max-width: 639px) {
