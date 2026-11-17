@@ -387,3 +387,6 @@ tr.is-poster td.time { color: #16503a; }
 h1, h2, h3 { text-wrap: balance; }
 .h2-statement { max-width: none; }
 .nw { white-space: nowrap; }
+
+/* ------------------------------------------------- disabled button -- */
+.btn.is-disabled { opacity: .45; pointer-events: none; cursor: not-allowed; }
