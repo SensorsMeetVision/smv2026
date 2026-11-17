@@ -321,6 +321,14 @@ tr.is-highlight td { font-weight: 600; }
 .organizer__affil { font-size: .9rem; color: var(--ink-mute); margin-bottom: 12px; }
 .organizer p { font-size: .94rem; color: var(--ink-soft); }
 .organizer a { font-size: .9rem; }
+.organizer__head { display: flex; gap: 16px; align-items: flex-start; margin-bottom: 14px; }
+.organizer__head .organizer__name { margin-top: 0; }
+.organizer__head .organizer__affil { margin-bottom: 0; }
+.organizer__photo {
+  flex: 0 0 108px; width: 108px; height: 108px; border-radius: 16px;
+  object-fit: cover; background: var(--line-soft); border: 1px solid var(--line);
+}
+@media (max-width: 639px) { .organizer__photo { flex-basis: 88px; width: 88px; height: 88px; } }
 
 /* --------------------------------------------------------------- misc -- */
 .support {
