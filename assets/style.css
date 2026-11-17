@@ -390,3 +390,7 @@ h1, h2, h3 { text-wrap: balance; }
 
 /* ------------------------------------------------- disabled button -- */
 .btn.is-disabled { opacity: .45; pointer-events: none; cursor: not-allowed; }
+
+/* --------------------------------------------------------- sponsor -- */
+.sponsor-logo { display: inline-block; margin-top: 20px; }
+.sponsor-logo img { width: 100%; max-width: 440px; height: auto; }
