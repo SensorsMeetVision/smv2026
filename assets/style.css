@@ -380,6 +380,9 @@ tr.is-poster td {
 }
 tr.is-poster td.time { color: #16503a; }
 
+/* ----------------------------------------------------- poster list -- */
+.posters td.time { font-weight: 700; color: var(--brand-deep); }
+
 /* ------------------------------------------------- heading line breaks -- */
 h1, h2, h3 { text-wrap: balance; }
 .h2-statement { max-width: none; }
