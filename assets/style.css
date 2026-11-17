@@ -111,7 +111,7 @@ li { margin-bottom: .35em; }
 }
 .hero__conjunction {
   font-size: 1.02rem; color: rgba(255, 255, 255, .9);
-  max-width: 62ch; margin-bottom: 26px;
+  max-width: none; margin-bottom: 26px;
 }
 .hero__conjunction strong { color: #fff; }
 
