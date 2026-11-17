@@ -159,8 +159,8 @@ li { margin-bottom: .35em; }
   font-size: 1.05rem; color: var(--brand-deep);
   margin-top: 1.8em; margin-bottom: .5em;
 }
-.lead { font-size: 1.08rem; color: var(--ink-soft); max-width: 74ch; }
-.prose { max-width: 74ch; color: var(--ink-soft); }
+.lead { font-size: 1.08rem; color: var(--ink-soft); max-width: none; }
+.prose { max-width: none; color: var(--ink-soft); }
 .prose strong { color: var(--ink); }
 
 /* --------------------------------------------------------- topic list -- */
@@ -325,7 +325,7 @@ tr.is-highlight td { font-weight: 600; }
 /* --------------------------------------------------------------- misc -- */
 .support {
   display: grid; gap: 10px; margin-top: 16px; padding: 0;
-  list-style: none; max-width: 74ch;
+  list-style: none; max-width: none;
 }
 .support li {
   font-size: .9rem; color: var(--ink-soft); margin: 0;
